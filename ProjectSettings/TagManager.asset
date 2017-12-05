@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - tree
+  - Fire
+  - Bubble
+  - Enemy
+  - Pet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - tree
+  - Pet
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 3226187857
+    locked: 0
+  - name: midground
+    uniqueID: 350936665
+    locked: 0
+  - name: Objects
+    uniqueID: 3066577575
+    locked: 0
+  - name: Player
+    uniqueID: 1433894609
+    locked: 0
+  - name: UI
+    uniqueID: 2662640705
+    locked: 0

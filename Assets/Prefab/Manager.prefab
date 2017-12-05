@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1385752889168030}
+  m_IsPrefabParent: 1
+--- !u!1 &1165711758140496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4509543153125392}
+  - component: {fileID: 114227050107812906}
+  m_Layer: 0
+  m_Name: Achievement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1237524022659928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4542084302564502}
+  - component: {fileID: 114420649965128916}
+  - component: {fileID: 114675103071098014}
+  - component: {fileID: 114297940665034730}
+  - component: {fileID: 114346909383331364}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1385752889168030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4778647202264852}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1868610579203756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4483765581450952}
+  - component: {fileID: 114891508190564328}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1932358546808568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4422662884611676}
+  - component: {fileID: 114922569020083782}
+  - component: {fileID: 114184872581603500}
+  - component: {fileID: 114341026262299834}
+  - component: {fileID: 114555196360862504}
+  m_Layer: 0
+  m_Name: InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4422662884611676
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932358546808568}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5461211, y: -0.92627764, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4778647202264852}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4483765581450952
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868610579203756}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.70649123, y: -0.6473775, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4778647202264852}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4509543153125392
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165711758140496}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4778647202264852}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4542084302564502
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237524022659928}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.7309344, y: -2.8303127, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4778647202264852}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4778647202264852
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1385752889168030}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3591816, y: 0.90627766, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4422662884611676}
+  - {fileID: 4483765581450952}
+  - {fileID: 4542084302564502}
+  - {fileID: 4509543153125392}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114184872581603500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932358546808568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22174fd75c4123343abb35befd511fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodMenu: {fileID: 0}
+  RoastPitWMeat: {fileID: 1316038657248656, guid: 49e38afe3c62c0d4396d89087d39fab8,
+    type: 2}
+  BoilBtn: {fileID: 0}
+  DrinkBtn: {fileID: 0}
+  CookBtn: {fileID: 0}
+  EatBtn: {fileID: 0}
+  FoodCount: {fileID: 0}
+  FoodButtonDisplay: {fileID: 0}
+--- !u!114 &114227050107812906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1165711758140496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7c340f06ff30f4fa14b5ceb963e619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: {fileID: 0}
+  achievePage: {fileID: 0}
+--- !u!114 &114297940665034730
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237524022659928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e789b56fd996f4f823c77d9773ed0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  randomText: {fileID: 0}
+  randomPage: {fileID: 0}
+  yesbtn: {fileID: 0}
+  nobtn: {fileID: 0}
+  closebtn: {fileID: 0}
+--- !u!114 &114341026262299834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932358546808568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e21f78eb8f955024f84294b0c8662685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waterMenu: {fileID: 0}
+  CookBtn: {fileID: 0}
+  EatBtn: {fileID: 0}
+  BoilBtn: {fileID: 0}
+  DrinkBtn: {fileID: 0}
+  WaterCount: {fileID: 0}
+  WaterButtonDisplay: {fileID: 0}
+--- !u!114 &114346909383331364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237524022659928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c7bee68632d73458de8c58fa4e0168, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114420649965128916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237524022659928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e284731d95f39914eaef1f149c80e504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countDay: {fileID: 0}
+  diary: {fileID: 0}
+  countActions: {fileID: 0}
+  diaryPage: {fileID: 0}
+  sprungTrap: {fileID: 1493361896517840, guid: 67c2d086d7ecfbe4e86c405eb1af95bc, type: 2}
+  firewood: {fileID: 1249265242136964, guid: f496af81ac5ba8941b9776ceb80129dc, type: 2}
+  boar: {fileID: 1070308049754072, guid: f3f7934f9e573e4499e4b1a40915eb67, type: 2}
+  PlayerScript: {fileID: 0}
+  passiveWater: 0
+  achievement: {fileID: 114227050107812906}
+--- !u!114 &114555196360862504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932358546808568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8adf560bda091144aff7f7bc0012c03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuPage: {fileID: 0}
+  ChopBtn: {fileID: 0}
+  PeelBtn: {fileID: 0}
+  TotalWood: 0
+  ChoppedWood: 0
+  BarkWood: 0
+  woodLimit: 0
+  title: {fileID: 0}
+  WoodDisplay: {fileID: 0}
+  totalAmount: {fileID: 0}
+  firstAmount: {fileID: 0}
+  secondAmount: {fileID: 0}
+--- !u!114 &114675103071098014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1237524022659928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b1d4776b745248498ffebf2b77e9fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114891508190564328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868610579203756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9443c2aa5495a4884165ef9a07c25a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deadPage: {fileID: 0}
+  boar: {fileID: 0}
+  deadText: {fileID: 0}
+  Paused: 0
+  health: 0
+  satiety: 0
+  hydration: 0
+  warmth: 0
+  numDays: 0
+  numWood: 0
+  numWater: 0
+  numFood: 0
+  pigsKilled: 0
+  HP: {fileID: 0}
+  Hydra: {fileID: 0}
+  Sat: {fileID: 0}
+  Warm: {fileID: 0}
+--- !u!114 &114922569020083782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932358546808568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d0c35d214850c49bf11a7a8e45288e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stoneCount: 0
+  clayCount: 0
+  leatherCount: 0
+  stoneLimit: 0
+  clayLimit: 0
+  leatherLimit: 0
+  BuildPage: {fileID: 0}
+  stoneDisplay: {fileID: 0}
+  clayDisplay: {fileID: 0}
+  leatherDisplay: {fileID: 0}
+  banana: 0
